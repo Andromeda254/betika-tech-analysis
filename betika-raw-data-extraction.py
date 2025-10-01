@@ -100,8 +100,8 @@ class BetikaDataExtractor:
                         r'/api/[^\s\'\"]+',
                         r'/ajax/[^\s\'\"]+', 
                         r'api\.[^\s\'\"]+',
-                        r'endpoint[^\s]*:[^\s]*[\'\"](/[^\'\"]+)[\'\"']',
-                        r'url[^\s]*:[^\s]*[\'\"](/api/[^\'\"]+)[\'\"']'
+                        r'endpoint[^\s]*:[^\s]*[\'\"](/[^\'\"]+)[\'\"]',
+                        r'url[^\s]*:[^\s]*[\'\"](/api/[^\'\"]+)[\'\"]'
                     ]
                     
                     for pattern in api_patterns:
@@ -225,7 +225,7 @@ class BetikaDataExtractor:
                     html_content = await response.text()
                     
                     # Extract JavaScript file URLs
-                    js_pattern = r'<script[^>]*src=[\'\"](.*?\.js.*?)[\'\"']'
+                    js_pattern = r'<script[^>]*src=[\'\"](.*?\.js.*?)[\'\"]'
                     js_files = re.findall(js_pattern, html_content, re.IGNORECASE)
                     
                     # Analyze each JavaScript file
@@ -239,10 +239,10 @@ class BetikaDataExtractor:
                                     
                                     # Look for API patterns in JavaScript
                                     api_patterns = [
-                                        r'[\'\"](/api/[^\'\"]+)[\'\"']',
-                                        r'[\'\"](/ajax/[^\'\"]+)[\'\"']',
-                                        r'apiUrl[^\w]*[:=][^\w]*[\'\"']([^\'\"]+)[\'\"']',
-                                        r'endpoint[^\w]*[:=][^\w]*[\'\"']([^\'\"]+)[\'\"']'
+                                        r'[\'\"](/api/[^\'\"]+)[\'\"]',
+                                        r'[\'\"](/ajax/[^\'\"]+)[\'\"]',
+                                        r'apiUrl[^\w]*[:=][^\w]*[\'\"]([^\'\"]+)[\'\"]',
+                                        r'endpoint[^\w]*[:=][^\w]*[\'\"]([^\'\"]+)[\'\"]'
                                     ]
                                     
                                     for pattern in api_patterns:
@@ -464,15 +464,15 @@ class BetikaDataExtractor:
         """Save analysis results to files"""
         try:
             # Save comprehensive report
-            with open('/workspace/betika-comprehensive-analysis.json', 'w') as f:
+            with open('betika-comprehensive-analysis.json', 'w') as f:
                 json.dump(report, f, indent=2, ensure_ascii=False)
             
             # Save raw data separately
-            with open('/workspace/betika-raw-data.json', 'w') as f:
+            with open('betika-raw-data.json', 'w') as f:
                 json.dump(self.raw_data, f, indent=2, ensure_ascii=False)
             
             # Save API endpoints
-            with open('/workspace/betika-api-endpoints.json', 'w') as f:
+            with open('betika-api-endpoints.json', 'w') as f:
                 json.dump(self.api_endpoints, f, indent=2, ensure_ascii=False)
             
             logger.info("💾 Results saved successfully!")

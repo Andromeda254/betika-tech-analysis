@@ -1,0 +1,145 @@
+[
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referer": "https://www.betika.com/",
+      "accept": "text/css,*/*;q=0.1"
+    },
+    "timestamp": "2025-10-01T03:31:08.632Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/sports",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:08.645Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/sports",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:08.651Z"
+  },
+  {
+    "url": "https://storage.googleapis.com/betika-cdn/website/terms-and-conditions.json",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:08.662Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/totalMatches",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:10.605Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/matches?page=1&limit=10&tab=&sub_type_id=1,186,340&sport_id=14&tag_id=&sort_id=1&period_id=-1&esports=false",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:10.640Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/sport?page=1&limit=1000&id=14",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:10.663Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/matches?page=1&limit=10&tab=&sub_type_id=1,186,340&sport_id=14&sort_id=1&period_id=-1&esports=false",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:10.722Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/matches?page=1&limit=10&tab=&sub_type_id=1,186,340&sport_id=14&sort_id=1&period_id=-1&esports=false",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:10.725Z"
+  },
+  {
+    "url": "https://api.betika.com/v1/uo/matches?page=1&limit=10&tab=&sub_type_id=1,186,340&sport_id=14&sort_id=1&period_id=-1&esports=false",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:11.715Z"
+  },
+  {
+    "url": "https://advertiser.inmobiapis.com/tpce/v1/events/pixel?impId=&advId=112fe6524a474478a2f1266368ac7d8c&bUrl=https%3A%2F%2Fwww.betika.com%2Fen-ke%2Fsport%2Ffootball&ckId=b4f8eba8-c43d-4ad0-9411-2232aebea15c&eventTime=1759289473786&stratGuid=",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referer": "https://www.betika.com/",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+    },
+    "timestamp": "2025-10-01T03:31:13.800Z"
+  },
+  {
+    "url": "https://capig.stape.ai/events/d395ef617360a0eec4154c97de2331db1ea2f3cfd37daa1f8b6db97e2c62a8b7",
+    "method": "POST",
+    "headers": {
+      "referer": "https://www.betika.com/",
+      "accept-language": "en-US,en;q=0.9",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "content-type": "text/plain;charset=UTF-8",
+      "accept": "*/*",
+      "origin": "https://www.betika.com"
+    },
+    "timestamp": "2025-10-01T03:31:17.762Z"
+  }
+]
